@@ -17,6 +17,7 @@
       margin: 100px auto;
       background: rgb(0, 0, 0);
       border-radius: 20px;
+      box-shadow: 5px 5px 40px rgb(35, 33, 33);
     }
     input[type="text"] {
       height: 60px;
@@ -72,53 +73,42 @@
     }
 
     footer {
-      grid-area: footer;
       padding: 10px;
-      margin: 5px;
-      border: 2px solid rgb(4, 4, 52);
+      margin:10px;
+      margin-top: 50px !important;
       border-radius: 10px;
-      background: linear-gradient(to right, orange, white, green);
+      border: 1px solid blue;
+      box-shadow: 4px 4px 20px rgb(123, 123, 123);
       position: fixed;
       bottom: 0;
-      right: 0;
       left: 0;
+      right: 0;
     }
-    
-    .social-media {
-      position: relative;
-    }
-    
+
     .social-media .fa {
-      font-size: 30px;
+      font-size: 35px;
       text-decoration: none;
       padding: 2px;
-      margin: 12px;
+      margin: 10px;
     }
     
     .social-media .fa:hover {
       opacity: 0.7;
     }
     
-    .fa-instagram {
-      color: rgb(244, 66, 95);
-    }
-    
     .fa-github {
       color: black;
     }
     
-    .fa-twitter {
-      color: #2f9df0;
-    }
-    
     .fa-linkedin {
-      color: #007bb5;
+      color: #2599cf;
     }
     
-    .fa-facebook {
-      color: #214fb1;
+    .fa-instagram {
+      color: rgb(203, 21, 51);
     }
     
-    .fa-youtube {
-      color: rgb(236, 24, 24);
+    .fa-twitter {
+      color: #30a1f7;
     }
+    
